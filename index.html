@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>36 Weeks</title>
+<meta name="theme-color" content="#edf0f3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0d1319" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="36 Weeks">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="robots" content="noindex">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="app" aria-live="polite"></main>
+<div class="tabs"><nav aria-label="Main">
+  <a href="#/today" data-tab="today"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="3"/><path d="M8 3v4M16 3v4M4 10h16"/></svg>Today</a>
+  <a href="#/plan" data-tab="plan"><svg viewBox="0 0 24 24"><path d="M5 20v-7M9 20V8M13 20v-9M17 20V5"/></svg>Plan</a>
+  <a href="#/moves" data-tab="moves"><svg viewBox="0 0 24 24"><circle cx="12" cy="5.5" r="2.5"/><path d="M12 8.5v6M7.5 11.5h9M9 21l3-6.5 3 6.5"/></svg>Moves</a>
+  <a href="#/report" data-tab="report"><svg viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M10 12h5M10 16h5"/></svg>Report</a>
+</nav></div>
+<div id="toast" class="toast" role="status" hidden></div>
+<script src="plan.js"></script>
+<script src="figures.js"></script>
+<script src="core.js"></script>
+<script src="report.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
